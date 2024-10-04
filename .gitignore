@@ -1,104 +1,85 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
 
-# C extensions
-*.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Created by https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,windows,visualstudiocode
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+# Icon must end with two \r
+Icon
 
-# Translations
-*.mo
-*.pot
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+# Thumbnails
+._*
 
-# Flask stuff:
-instance/
-.webassets-cache
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Scrapy stuff:
-.scrapy
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Sphinx documentation
-docs/_build/
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
-# PyBuilder
-target/
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Local History for Visual Studio Code
+.history/
 
-# pyenv
-.python-version
+# Built Visual Studio Code Extensions
+*.vsix
 
-# celery beat schedule file
-celerybeat-schedule
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
-# SageMath parsed files
-*.sage.py
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+# Dump file
+*.stackdump
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Folder config file
+[Dd]esktop.ini
 
-# Rope project settings
-.ropeproject
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# mkdocs documentation
-/site
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# mypy
-.mypy_cache/
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode
