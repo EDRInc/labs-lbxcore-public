@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title><%= title %></title>
+
+   <link rel="icon" type="image/png" sizes="32x32" href="<%= api %>/public/images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="<%= api %>/public/images/favicon-16x16.png">
+   <link rel="icon" type="image/x-icon" href="<%= api %>/public/images/favicon.ico">
+
+   <%- include('./head_bootstrap.ejs') %>
+
+   <link rel="stylesheet"
+         href="<%= api %>/public/css/index.css">
+</head>
+<body>
+   <div class="container py-4">
+      <header class="mb-3 p-2 bg-light rounded-3">
+         <div class="py-3">
+            <h3 class="display-5 fw-bold"><%= title %></h3>
+            <!--  h3 class="display-7">Welcome to <%= title %></h3 -->
+         </div>
+      </header>
+
+      <div id="alert"></div>
+
+      <main class="container">
+         <div class="row align-items-md-stretch">
+            <div class="col-md-4">
+
+            </div>
+
+            <div class="col-md-8">
+
+            </div>
+         </div>
+      </main>
+
+      <footer class="mt-3 pt-2 text-muted text-center border-top">
+         Copyright &copy; 2024 by LightBox
+      </footer>
+   </div>
+
+   <!--  hidden variables  -->
+   <input id="api" value="<%= api %>" type="hidden"/>
+
+   <!--  form events  -->
+   <script src="<%= api %>/public/js/index_events.js"></script>
+
+</body>

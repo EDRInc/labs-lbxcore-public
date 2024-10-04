@@ -1,0 +1,38 @@
+/*  structure  */
+header {
+   background-color: #f8f9fa;
+   padding: 10px;
+}
+
+footer {
+   padding: 10px;
+   margin-top: auto;
+}
+
+/*  boot strap  */
+.bd-placeholder-img {
+   font-size: 1.125rem;
+   text-anchor: middle;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   user-select: none;
+}
+
+@media (min-width: 768px) {
+   .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+   }
+}
+
+/*  data tables  */
+table.dataTable tbody tr.selected {
+   background-color: #46e66e !important;
+}
+
+table.dataTable thead th {
+   font-size: smaller;
+}
+
+table.dataTable tbody td {
+   font-size: smaller;
+}
