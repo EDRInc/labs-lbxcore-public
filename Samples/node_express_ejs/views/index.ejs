@@ -8,6 +8,7 @@
    <link rel="icon" type="image/x-icon" href="<%= api %>/public/images/favicon.ico">
 
    <%- include('./head_bootstrap.ejs') %>
+   <$- include('./head_leaflet.ejs') %>
 
    <link rel="stylesheet"
          href="<%= api %>/public/css/index.css">
@@ -25,11 +26,11 @@
 
       <main class="container">
          <div class="row align-items-md-stretch">
-            <div class="col-md-4">
-
+            <div class="col-md-8">
+               <div id="map"></div>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-md-4">
 
             </div>
          </div>

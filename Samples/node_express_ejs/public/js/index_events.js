@@ -5,7 +5,7 @@ $(document).ready(function() {
    //  gather api
    sAPI = $('#api').val() ? $('#api').val() : 'http://localhost:3000/api/fema/nfhl';
 
-   showAlert('success', sAPI);
+   //  showAlert('success', sAPI);
 });
 
 //  utilities
